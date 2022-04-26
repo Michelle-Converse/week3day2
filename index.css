@@ -1,0 +1,58 @@
+html, body, div {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+body {
+    background-color: antiquewhite;
+    flex-direction: column;
+}
+
+#Header {
+    background-color: #ffdb58;
+    color: white;
+    display: inline-block;
+    width: 1000px;
+    justify-content: space-between;
+}
+
+.finance {
+
+    color: antiquewhite;
+}
+
+.nav {
+    justify-content: flex-end;
+    background-color: #ffdb58;
+}
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+#MainContent {
+    flex-wrap: wrap;
+}
+
+.Section {
+    background-color: white;
+    border: 2px solid #ffdb58;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.Section a {
+    background-color: #ffdb58;
+    text-decoration: none;
+    color: white;
+    width: 200px;
+    padding: 2px;
+    text-align: center;
+    align-items: flex-start;
+}
